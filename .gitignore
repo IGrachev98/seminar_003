@@ -1,0 +1,107 @@
+## Игнорировать временные файлы Visual Studio, результаты сборки и
+## файлы, созданные популярными дополнениями Visual Studio.
+
+# Пользовательские файлы
+*.suo
+*.user
+* .sln.docstates
+
+# Результаты сборки
+
+[Dd]ebug/
+[Rr]elease/
+x64/
+[Bb]в/
+[Oo]bj/
+
+# Результаты теста MSTest
+[Tt] есть [Rr] результат */
+[Bb]uild[Ll]og.*
+
+*_i.c
+*_p.c
+*_i.h
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.строит
+*.pidb
+*.log
+*.svclog
+*.scc
+
+# Файлы кэша Visual C++
+ipch/
+*.точки доступа
+*.ncb
+*.opensdf
+*.sdf
+*.кэш-файл
+
+# Профилировщик Visual Studio
+*.psess
+*.vsp
+*.vspx
+
+# Инструментарий автоматизации руководства
+*.gpState
+
+# ReSharper - это надстройка для программирования .NET
+*_ReSharper/
+.*[Rr]e[Ss]харпер
+*.DotSettings.user
+
+# Каталог с одним щелчком мыши
+опубликовать/
+
+# Опубликовать веб-вывод
+*.Publish.xml
+*.pubxml
+*.azurePubxml
+
+# NuGet Packages Directory
+## TODO: If you have NuGet Package Restore enabled, uncomment the next line
+packages/
+## TODO: If the tool you use requires repositories.config, also uncomment the next line
+!packages/repositories.config
+
+# Windows Azure Build Output
+csx/
+*.build.csdef
+
+# Windows Store app package directory
+AppPackages/
+
+# Другие
+sql/
+*.Кэш
+ClientBin/
+[Ss]введите [Cc]op.*
+![Ss]введите[Cc]op.цели
+~$*
+*~
+*.dbmdl
+.*[Pp]ublish.xml
+
+*.publishsettings
+
+# Проекты RIA/Silverlight
+Сгенерированный код/
+
+# Резервное копирование и создание отчетов о файлах при преобразовании старого файла проекта в более новый
+# Версия Visual Studio. Резервные копии файлов не нужны, потому что у нас есть git ;-)
+
